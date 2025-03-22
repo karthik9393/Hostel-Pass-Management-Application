@@ -1,5 +1,6 @@
 # Hostel-Pass-Management-Application
 
+Open source contribution
 
 ## Pre-Requisites
 
@@ -9,6 +10,7 @@
 ## How to execute
 
 1. Clone this repository on your local machine
+
 ```
 $ git clone "https://github.com/NishkarshRaj/Hostel-Pass-Management-Application.git"
 ```
@@ -16,12 +18,14 @@ $ git clone "https://github.com/NishkarshRaj/Hostel-Pass-Management-Application.
 2. Open SQL Plus on your local machine and configure Database by using the Creation and insertion files in **dbms_files** directory.
 
 3. Visit **src** directory on your local machine via command line and type the following command:
+
 ```
 $ cd {path to project}/src/
 $ set classpath=C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib\ojdbc6.jar;.
 ```
 
 4. Execute the Main.java file in src directory
+
 ```
 $ javac Main.java
 $ java Main
